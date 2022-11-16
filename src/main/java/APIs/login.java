@@ -1,12 +1,8 @@
 package APIs;
 
 import ApiBase.RequestApi;
-
 import URLs.URLs;
-import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-
-import org.json.simple.JSONObject;
 
 public class login extends RequestApi {
 

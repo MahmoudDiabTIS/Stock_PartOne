@@ -1,0 +1,84 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="All Stock APIs Suite" verbose="10">
+    <test name="Login Test">
+        <classes>
+            <class name="loginTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="Show Assets Test">
+        <classes>
+            <class name="showAssetTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="Search Asset Test">
+        <classes>
+            <class name="searchAssetTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="Asset News Test">
+        <classes>
+            <class name="assetNewsTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="Market News Test">
+        <classes>
+            <class name="marketAssetsTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="View One Asset Test">
+        <classes>
+            <class name="viewOneTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="Sell Asset Test">
+        <classes>
+            <class name="sellOrderTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="Buy Asset Test">
+        <classes>
+            <class name="buyOrderTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="Asset Pricing Test">
+        <classes>
+            <class name="pricingTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="Asset QTY Test">
+        <classes>
+            <class name="qtyTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="Sell all Assets Test">
+        <classes>
+            <class name="sellAllTest">
+            </class>
+        </classes>
+    </test>
+</suite>
+
+
+
+
